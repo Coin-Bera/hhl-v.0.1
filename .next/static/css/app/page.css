@@ -1,0 +1,120 @@
+/*!***************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[3].oneOf[13].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[3].oneOf[13].use[3]!./node_modules/next/dist/build/webpack/loaders/resolve-url-loader/index.js??ruleSet[1].rules[3].oneOf[13].use[4]!./node_modules/next/dist/compiled/sass-loader/cjs.js??ruleSet[1].rules[3].oneOf[13].use[5]!./src/app/scss/components/MagneticButton.scss ***!
+  \***************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+.magnetic-button {
+  cursor: pointer;
+  outline: none;
+  transition: color 0.1s linear, background 0.15s linear;
+}
+.magnetic-button > span {
+  display: inline-block;
+  position: relative;
+  z-index: 2;
+  will-change: transform;
+}
+
+.magnetic-btn-wrapper {
+  perspective: 2000px;
+}
+/*!*******************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[3].oneOf[13].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[3].oneOf[13].use[3]!./node_modules/next/dist/build/webpack/loaders/resolve-url-loader/index.js??ruleSet[1].rules[3].oneOf[13].use[4]!./node_modules/next/dist/compiled/sass-loader/cjs.js??ruleSet[1].rules[3].oneOf[13].use[5]!./src/app/scss/components/Bubble.scss ***!
+  \*******************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+.buble-wrapper {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 500px;
+  height: 500px;
+  filter: url("#filter");
+  filter: blur(50px);
+}
+@media (max-width: 575px) {
+  .buble-wrapper {
+    left: -60px !important;
+    width: 400px;
+    height: 400px;
+  }
+}
+
+.svg-layer {
+  position: absolute;
+}
+
+.ball {
+  width: 200px;
+  height: 200px;
+  position: absolute;
+  top: calc(50% - 100px);
+  left: calc(50% - 100px);
+}
+.ball:before {
+  background: var(--bubble-bg);
+  border-radius: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  content: "";
+}
+.ball:nth-child(1) {
+  transform: translate(-220px);
+  animation: x-axis-lateral 15s infinite alternate ease-in-out;
+}
+.ball:nth-child(1):before {
+  animation: y-axis-lateral 10s infinite 0.1s alternate ease-in-out;
+}
+.ball:nth-child(2) {
+  animation: x-axis 15s infinite alternate ease-in-out;
+}
+.ball:nth-child(2):before {
+  animation: y-axis 10s infinite 0.5s alternate ease-in-out;
+}
+.ball:nth-child(3) {
+  transform: translate(220px, 260px);
+  animation: x-axis-lateral 15s infinite alternate ease;
+}
+.ball:nth-child(3):before {
+  animation: y-axis-lateral 10s infinite 0.4s alternate ease-in-out;
+}
+
+@keyframes x-axis {
+  0% {
+    transform: translate(-320px);
+    background: var(--bubble-bg);
+  }
+  100% {
+    transform: translate(320px);
+    background: var(--bubble-bg);
+  }
+}
+@keyframes y-axis {
+  0% {
+    transform: translateY(140px);
+    background: var(--bubble-bg);
+  }
+  100% {
+    transform: translateY(-220px) scale(0.8);
+    background: var(--bubble-bg);
+  }
+}
+@keyframes x-axis-lateral {
+  0% {
+    transform: translate(-120px);
+    background: var(--bubble-bg);
+  }
+  100% {
+    transform: translate(120px);
+    background: var(--bubble-bg);
+  }
+}
+@keyframes y-axis-lateral {
+  0% {
+    transform: translateY(40px);
+    background: var(--bubble-bg);
+  }
+  100% {
+    transform: translateY(-200px);
+    background: var(--bubble-bg);
+  }
+}

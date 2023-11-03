@@ -9,17 +9,17 @@ import 'swiper/css';
 
 const TeamData = [
   {
-    img: "https://placehold.co/100/png",
+    img: "/assets/img/20.png",
     name: "Mohd Bin-Sal",
     designation: "Head of finance",
   },
   {
-    img: "https://placehold.co/100/png",
+    img: "/assets/img/10.png",
     name: "Prince Ahmed",
     designation: "CEO",
   },
   {
-    img: "https://placehold.co/100/png",
+    img: "/assets/img/24-1.png",
     name: "Sheikh Mohd.",
     designation: "Head of Operations",
   },
