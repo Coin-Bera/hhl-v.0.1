@@ -3,7 +3,7 @@ import React, { useState } from 'react'
 import PropTypes from 'prop-types';
 import { tabData } from "../data/tabNav";
 
-const TabsNav = ({ color = "#6371f0", activeColor = "#6371f094", trackColor = "#232323", track = true, className }) => {
+const TabsNav = ({ color = "#10B981", activeColor = "#10B98194", trackColor = "#232323", track = true, className }) => {
     const [activeTab, setActiveTab] = useState({ index: 0, mounted: false });
 
     return (<div className={className ? ` ${className}` : ""}>
@@ -16,7 +16,7 @@ const TabsNav = ({ color = "#6371f0", activeColor = "#6371f094", trackColor = "#
                                 style={{ color: activeTab.index === index ? activeColor : color }}
                                 type="button"
                                 onClick={() => setActiveTab({ ...activeTab, index })}
-                                className={`nav-link font-semibold relative font-poppins py-[10px] px-[12px] transition-all after:content-normal after:left-0 after:absolute after:bottom-[-2px] after:rounded-full after:border-b-4 after:border-solid after:border-[#6371F0] after:transition-all sm:w-full focus:bg-transparent${activeTab.index === index ? " after:w-full" : " after:w-0"}`}>
+                                className={`nav-link font-semibold relative font-poppins py-[10px] px-[12px] transition-all after:content-normal after:left-0 after:absolute after:bottom-[-2px] after:rounded-full after:border-b-4 after:border-solid after:border-[#10B981] after:transition-all sm:w-full focus:bg-transparent${activeTab.index === index ? " after:w-full" : " after:w-0"}`}>
                                 {item.label}
                             </button>
                         </li>

@@ -101,8 +101,8 @@ const Contact = () => {
 
     return (
         <section className="py-[250px] xl:pb-[100px] xl:pt-[150px] lg:pt-[150px]">
-            <Bubble className="md:opacity-30" style={{ top: 0, left: 'auto', right: 0, '--bubble-bg': "linear-gradient(#261362, #F900B7)" }} />
-            <Bubble className="md:opacity-30" style={{ top: 300, left: -150, '--bubble-bg': "linear-gradient(#261362, #F900B7)" }} />
+            <Bubble className="md:opacity-30" style={{ top: 0, left: 'auto', right: 0, '--bubble-bg': "linear-gradient(#00FF57, #013C15)" }} />
+            <Bubble className="md:opacity-30" style={{ top: 300, left: -150, '--bubble-bg': "linear-gradient(#00FF57, #013C15)" }} />
             <div className="container relative">
                 <div className="row justify-between gap-y-20">
                     <div className="col-lg-6">

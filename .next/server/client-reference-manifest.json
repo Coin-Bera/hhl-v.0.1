@@ -135,6 +135,14 @@
         "chunks": [],
         "async": false
       }
+    },
+    "(app-client)/./src/app/sections/Contact.jsx": {
+      "*": {
+        "id": "(sc_client)/./src/app/sections/Contact.jsx",
+        "name": "*",
+        "chunks": [],
+        "async": false
+      }
     }
   },
   "edgeSSRModuleMapping": {},
@@ -223,7 +231,7 @@
       "id": "(app-client)/./node_modules/next/dist/client/image-component.js",
       "name": "*",
       "chunks": [
-        "app/page:static/chunks/app/page.js"
+        "app/work/page:static/chunks/app/work/page.js"
       ],
       "async": false
     },
@@ -231,7 +239,7 @@
       "id": "(app-client)/./node_modules/next/dist/client/image-component.js",
       "name": "*",
       "chunks": [
-        "app/page:static/chunks/app/page.js"
+        "app/work/page:static/chunks/app/work/page.js"
       ],
       "async": false
     },
@@ -295,7 +303,7 @@
       "id": "(app-client)/./src/app/scss/components/Bubble.scss",
       "name": "*",
       "chunks": [
-        "app/about/page:static/chunks/app/about/page.js"
+        "app/work/page:static/chunks/app/work/page.js"
       ],
       "async": false
     },
@@ -354,6 +362,22 @@
         "app/about/page:static/chunks/app/about/page.js"
       ],
       "async": false
+    },
+    "/Users/coinoor/Desktop/GitRepos/hhl-v.0.1/src/app/scss/sections/WorkList.scss": {
+      "id": "(app-client)/./src/app/scss/sections/WorkList.scss",
+      "name": "*",
+      "chunks": [
+        "app/work/page:static/chunks/app/work/page.js"
+      ],
+      "async": false
+    },
+    "/Users/coinoor/Desktop/GitRepos/hhl-v.0.1/src/app/sections/Contact.jsx": {
+      "id": "(app-client)/./src/app/sections/Contact.jsx",
+      "name": "*",
+      "chunks": [
+        "app/contact/page:static/chunks/app/contact/page.js"
+      ],
+      "async": false
     }
   },
   "entryCSSFiles": {
@@ -365,6 +389,12 @@
     ],
     "/Users/coinoor/Desktop/GitRepos/hhl-v.0.1/src/app/about/page": [
       "static/css/app/about/page.css"
+    ],
+    "/Users/coinoor/Desktop/GitRepos/hhl-v.0.1/src/app/work/page": [
+      "static/css/app/work/page.css"
+    ],
+    "/Users/coinoor/Desktop/GitRepos/hhl-v.0.1/src/app/contact/page": [
+      "static/css/app/contact/page.css"
     ]
   }
 }

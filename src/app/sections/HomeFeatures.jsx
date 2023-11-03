@@ -27,7 +27,7 @@ const HomeFeatures = () => {
 
     return (
         <section className="relative">
-            <Bubble className="opacity-50" style={{ top: 0, left: 0, "--bubble-bg": "linear-gradient(#261362, #F900B7)" }} />
+            <Bubble className="opacity-50" style={{ top: 0, left: 0, "--bubble-bg": "linear-gradient(#00FF57, #013C15)" }} />
             <div className="container relative">
                 <div className="bg-[linear-gradient(135deg,rgba(216,216,216,0.2),transparent)] rounded-[35px] px-[55px] py-[70px] backdrop-blur-2xl backdrop-saturate-100 xl:px-[40px] lg:py-[50px]">
                     <div className="row row-cols-1 row-cols-lg-3 gap-y-10">

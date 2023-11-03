@@ -70,7 +70,7 @@ const AboutHowWeWork = () => {
                 <div className="row justify-between gap-y-[70px]">
                     <div className="col-lg-5">
                         <div className="sticky top-1/2 -translate-y-1/2 lg:translate-y-0">
-                            <Bubble className="md:!opacity-0" style={{ top: -150, left: -250, opacity: 0.7, "--bubble-bg": "linear-gradient(#ec0066, #ff4e18, #384fff)" }} />
+                            <Bubble className="md:!opacity-0" style={{ top: -150, left: -250, opacity: 0.7, "--bubble-bg": "linear-gradient(#50FF8C, #00EC50, #B2FAFF)" }} />
                             <div className="flex items-start relative z-10">
                                 <GsapAnimation animation={{ opacity: 1, duration: 1, ease: Power3.easeInOut }} className="process-anim mr-[15px] mt-[15px] sm:mt-[10px] opacity-0"><span></span></GsapAnimation>
                                 <h2 className="title heading-1 text-black font-semibold md:text-[50px] sm:text-[35px]">How we work.</h2>
