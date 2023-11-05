@@ -5,7 +5,7 @@ import React from 'react'
 const Logo = ({ ...props }) => {
     return (
         <Link href="/">
-            <Image {...props} src="/assets/img/garuda.svg" alt="Habibi House Labs" />
+            <Image {...props} src="/assets/img/hhl-Logo.svg" alt="Habibi House Labs" />
         </Link>
     )
 }
