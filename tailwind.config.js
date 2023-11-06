@@ -33,10 +33,19 @@ module.exports = {
           from: { height: 'var(--radix-accordion-content-height)' },
           to: { height: 0 },
         },
+        marquee: {
+          from: {
+            transform: 'translateX(0px)',
+          },
+          to: {
+            transform: 'translateX(-2220px)',
+          },
+        },
       },
       animation: {
         slideDown: 'slideDown 300ms cubic-bezier(0.87, 0, 0.13, 1)',
         slideUp: 'slideUp 300ms cubic-bezier(0.87, 0, 0.13, 1)',
+        marquee: '15s marquee infinite linear',
       },
     },
   },

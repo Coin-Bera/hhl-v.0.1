@@ -3,6 +3,10 @@ import { gridImageData, gridImageBackendData, gridImageCMSData, gridImageDatabas
 
 export const tabData = [
     {
+        label: "Web3",
+        content: <ImageGrid bgColor="#232323" border="#232323" data={gridImageCMSData} />
+    },
+    {
         label: "Front End",
         content: <ImageGrid bgColor="#232323" border="#232323" data={gridImageData} />,
     },
@@ -11,11 +15,7 @@ export const tabData = [
         content: <ImageGrid bgColor="#232323" border="#232323" data={gridImageBackendData} />
     },
     {
-        label: "CMS",
-        content: <ImageGrid bgColor="#232323" border="#232323" data={gridImageCMSData} />
-    },
-    {
-        label: "Database",
+        label: "Infrastructure",
         content: <ImageGrid bgColor="#232323" border="#232323" data={gridImageDatabaseData} />
     }
 ]

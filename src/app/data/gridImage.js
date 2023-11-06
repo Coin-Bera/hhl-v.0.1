@@ -12,17 +12,17 @@ export const gridImageData = [
     //     label: "Html"
     // },
     {
-        path: "/assets/img/typescript.svg",
-        label: "Typescript"
+        path: "/assets/img/vercel.svg",
+        label: "Vercel"
     },
-    {
-        path: "/assets/img/css3.svg",
-        label: "CSS"
-    },
-    {
-        path: "/assets/img/tailwind.svg",
-        label: "Tailwind"
-    },
+    // {
+    //     path: "/assets/img/css3.svg",
+    //     label: "CSS"
+    // },
+    // {
+    //     path: "/assets/img/tailwind.svg",
+    //     label: "Tailwind"
+    // },
     // {
     //     path: "https://placehold.co/50/png",
     //     label: "SCSS"
@@ -35,41 +35,66 @@ export const gridImageData = [
 
 export const gridImageBackendData = [
     {
-        path: "/assets/img/nodejs.svg",
-        label: "Node js"
+        path: "/assets/img/go-logo-white.svg",
+        label: "Go Lang"
     },
     {
-        path: "/assets/img/expressjs.svg",
-        label: "Express Js"
+        path: "/assets/img/rust.svg",
+        label: "Rust"
     },
     {
-        path: "/assets/img/docker.svg",
-        label: "Docker"
+        path: "/assets/img/python.svg",
+        label: "Python"
     }
 ]
 
 export const gridImageCMSData = [
     {
-        path: "https://placehold.co/50/png",
-        label: "Wordpress"
+        path: "/assets/img/ipfs.svg",
+        label: "IPFS"
     },
     {
-        path: "https://placehold.co/50/png",
-        label: "Strapi"
+        path: "/assets/img/ankr.svg",
+        label: "Ankr"
+    },
+    {
+        path: "/assets/img/thegraph.svg",
+        label: "The Graph"
+    },
+    {
+        path: "/assets/img/cosmosSDK.svg",
+        label: "cosmosSDK"
+    },
+    {
+        path: "/assets/img/cometBFT.svg",
+        label: "cometBFT"
     }
 ]
 
 export const gridImageDatabaseData = [
     {
-        path: "/assets/img/mongodb.svg",
-        label: "MongoDB"
+        path: "/assets/img/docker.svg",
+        label: "Docker"
     },
     {
-        path: "/assets/img/firebase.svg",
-        label: "Firebase"
+        path: "/assets/img/kubernetes.svg",
+        label: "Kubernetes"
     },
     {
-        path: "/assets/img/mysql.svg",
-        label: "MySql"
+        path: "/assets/img/terraform.svg",
+        label: "Terraform"
+    },
+    {
+        path: "/assets/img/aws.svg",
+        label: "AWS"
+    },
+    {
+        path: "/assets/img/gcp.svg",
+        label: "GCP"
+    },
+    {
+        path: "/assets/img/azure.svg",
+        label: "Azure"
     }
+
 ]

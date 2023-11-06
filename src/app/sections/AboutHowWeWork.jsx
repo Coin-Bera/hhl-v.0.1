@@ -14,17 +14,17 @@ const AboutHowWeWork = () => {
     const stickySection = useRef()
     const stickyData = [
         {
-            title: "01. Ruthless Research",
-            content: "Lorem ipsum amet consectetur do eiusmod tempor incididunt Lorem ipsum amet consectetur do eiusmod tempor incididunt Lorem ipsum amet consectetur do eiusmod tempor incididunt Lorem ipsum amet consectetur do eiusmod tempor incididunt"
+            title: "2.0 Billion+ in Enterprise Value Provided",
+            content: "Our focus on cutting-edge technologies, creative solutions, and strategic partnerships has empowered organizations worldwide to achieve their business objectives, enhancing their competitiveness and driving sustainable growth."
         },
         {
-            title: "02. Initiations and Ideation",
-            content: "Lorem ipsum amet consectetur do eiusmod tempor incididunt Lorem ipsum amet consectetur do eiusmod tempor incididunt Lorem ipsum amet consectetur do eiusmod tempor incididunt Lorem ipsum amet consectetur do eiusmod tempor incididunt"
+            title: "50+ Employees WorldWide",
+            content: "With a dedicated team of 50+ employees spread across the globe, we've built a strong network of expertise and talent. Our worldwide presence enables us to deliver exceptional services and solutions to clients from diverse backgrounds and locations."
         },
         {
-            title: "03. Process and Production",
-            content: "Lorem ipsum amet consectetur do eiusmod tempor incididunt Lorem ipsum amet consectetur do eiusmod tempor incididunt Lorem ipsum amet consectetur do eiusmod tempor incididunt Lorem ipsum amet consectetur do eiusmod tempor incididunt"
-        }
+            title: "$100M+ Engineering Capital",
+            content: "With an engineering capital of over $100 million, our commitment to innovation and technical excellence is evident. We've invested significantly in resources, research, and development, allowing us to stay at the forefront of cutting-edge engineering solutions."
+        },
     ]
 
     const initAnime = () => {
@@ -73,7 +73,7 @@ const AboutHowWeWork = () => {
                             <Bubble className="md:!opacity-0" style={{ top: -150, left: -250, opacity: 0.7, "--bubble-bg": "linear-gradient(#00FF57, #00EC50, #B2FAFF)" }} />
                             <div className="flex items-start relative z-10">
                                 <GsapAnimation animation={{ opacity: 1, duration: 1, ease: Power3.easeInOut }} className="process-anim mr-[15px] mt-[15px] sm:mt-[10px] opacity-0"><span></span></GsapAnimation>
-                                <h2 className="title heading-1 text-black font-semibold md:text-[50px] sm:text-[35px]">How we work.</h2>
+                                <h2 className="title heading-1 text-black font-semibold md:text-[50px] sm:text-[35px]">Let's Talk Shop</h2>
                             </div>
                         </div>
                     </div>

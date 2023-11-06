@@ -15,7 +15,7 @@ const Footer = () => {
                     <div className="col w-full h-[1px] bg-[rgba(255,255,255,0.2)]"></div>
                     <div className="col text-center">
                         <h2 className="text-white font-semibold mb-[30px] md:mb-[15px] sm:mb-[5px]">{`Let's talk`}</h2>
-                        <a href={`mailto:${process.env.NEXT_PUBLIC_MAIL_ID || "info@HabibiHouseLabs.com"}`} className="heading-6 font-poppins">info@habibihouselabs.com</a>
+                        <a href={`mailto:${process.env.NEXT_PUBLIC_MAIL_ID || "contact@habibihouselabs.ae"}`} className="heading-6 font-poppins">contact@habibihouselabs.ae</a>
                     </div >
                     <div className="col w-full h-[1px] bg-[rgba(255,255,255,0.2)]"></div>
                 </div >
@@ -40,11 +40,11 @@ const Footer = () => {
                         <ul>
                             <li className="flex gap-x-[15px] mb-[10px]">
                                 <Image width={17} height={25} src="/assets/icons/phone.svg" alt="phone icon" />
-                                <a className="hover:text-white transition-all" href="tel:+91916969696969row justify-between gap-y-10">+91 6969696969</a>
+                                <a className="hover:text-white transition-all" href="tel:+971506569290 row justify-between gap-y-10">+971506569290</a>
                             </li>
                             <li className="flex gap-x-[15px]">
                                 <Image width={17} height={25} src="/assets/icons/mail.svg" alt="mail icon" />
-                                <a className="hover:text-white transition-all" href={`mailto:${process.env.NEXT_PUBLIC_MAIL_ID || "info@habibihouselabs.com"}`}>{process.env.NEXT_PUBLIC_MAIL_ID || "info@habibisolutions.com"}</a>
+                                <a className="hover:text-white transition-all" href={`mailto:${process.env.NEXT_PUBLIC_MAIL_ID || "contact@habibihouselabs.ae"}`}>{process.env.NEXT_PUBLIC_MAIL_ID || "contact@habibihouselabs.ae"}</a>
                             </li >
                         </ul >
                     </div >

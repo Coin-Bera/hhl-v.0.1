@@ -174,14 +174,14 @@ const Contact = () => {
                             <Image className="mr-[25px] mt-[5px]" width={35} height={35} src="/assets/icons/phone.svg" alt="phone icon" />
                             <div>
                                 <h3 className="heading-4 text-white font-semibold mb-[10px]">Phone</h3>
-                                <a href="tel:+919879879879" className="heading-6">+91 9879879879</a>
+                                <a href="tel:+919879879879" className="heading-6">+971506569290</a>
                             </div>
                         </div>
                         <div className="flex items-start mb-[90px]">
                             <Image className="mr-[25px] mt-[5px]" width={35} height={35} src="/assets/icons/mail.svg" alt="Mail icon" />
                             <div>
                                 <h3 className="heading-4 text-white font-semibold mb-[10px]">Mail</h3>
-                                <a href={`mailto:${process.env.NEXT_PUBLIC_MAIL_ID || "info@HabibiHouseLabs.com"}`} className="heading-6">info@habibihouselabs.com</a>
+                                <a href={`mailto:${process.env.NEXT_PUBLIC_MAIL_ID || "contact@habibihouselabs.ae"}`} className="heading-6">contact@habibihouselabs.ae</a>
                             </div>
                         </div>
                         <div className="flex items-start">

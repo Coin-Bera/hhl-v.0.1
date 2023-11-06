@@ -6,20 +6,20 @@ import { Power3 } from 'gsap';
 
 const accordionData = [
   {
-    title: "How do you ensure that your services align with our brand identity?",
-    description: "Our web design and development process begins with a thorough discovery phase, where we gain insights into your brand's values and vision. We then create a customized design strategy that reflects your brand identity, ensuring a seamless representation throughout the development journey."
+    title: "What is a web3 engineering company, and what do they do?",
+    description: "A web3 engineering company is a specialized firm that focuses on developing and maintaining web3 solutions and blockchain-based applications. They play a pivotal role in creating decentralized platforms, smart contracts, and decentralized applications (dApps) to enable peer-to-peer interactions, financial services, and more in the blockchain ecosystem."
   },
   {
-    title: "Can you handle the entire process, from design to deployment?",
-    description: "Absolutely! As a full-service IT web design and development agency, we manage every aspect of the process, from initial concept and design to the final deployment. Our experienced team ensures a smooth and efficient development process to bring your website to life."
+    title: "How can a web3 engineering company benefit my business?",
+    description: "Web3 engineering companies can provide your business with expertise in blockchain technology, enabling you to harness the benefits of decentralization, transparency, and security. They can help you build and deploy blockchain-based solutions that enhance trust, reduce fraud, and streamline processes, opening up new opportunities and revenue streams."
   },
   {
-    title: "What platforms and technologies do you use for web development?",
-    description: "We are proficient in various web development platforms and technologies, including but not limited to HTML, CSS, JavaScript, PHP, and popular content management systems like WordPress and Drupal. Our versatility enables us to select the most suitable technology stack for your specific project requirements."
+    title: "What technologies and programming languages do web3 engineering companies specialize in?",
+    description: "Web3 engineering companies are proficient in a variety of blockchain technologies, such as Ethereum, Solana, Polkadot, and Binance Smart Chain. They often use programming languages like Solidity for Ethereum-based projects and Rust for platforms like Solana. These companies are well-versed in blockchain development tools and frameworks."
   },
   {
-    title: "How do you optimize websites for mobile devices?",
-    description: "Our web design and development process prioritizes mobile responsiveness from the outset. We utilize responsive design principles and conduct rigorous testing on various devices to ensure your website performs flawlessly across smartphones, tablets, and desktops."
+    title: "How do web3 engineering companies ensure the security of blockchain solutions?",
+    description: "Security is a top priority for web3 engineering companies. They employ best practices in smart contract development, conduct extensive code audits, and use advanced security tools to identify vulnerabilities. Additionally, they often implement decentralized identity, encryption, and consensus mechanisms to enhance the security of blockchain applications, making them robust and trustworthy."
   }
 ]
 

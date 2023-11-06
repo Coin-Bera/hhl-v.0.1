@@ -37,8 +37,8 @@ const HomeBanner = () => {
               <h1 className="heading-1 font-bold text-white mb-[20px] w-[82%] mx-auto xl:w-full xl:text-[50px] xl:leading-[60px] sm:text-[40px] sm:mb-[12px]">
                 Habibi House Labs
               </h1>
-              <p className="text-[18px] w-full mx-auto mb-[50px] xl:w-[65%] sm:mb-[30px] sm:w-[80%] xs:w-full">
-                We help crypto projects scam their users <br /> We love what we do.
+              <p className="text-[26px] w-full mx-auto mb-[50px] xl:w-[65%] sm:mb-[30px] sm:w-[80%] xs:w-full leading-[1.5]">
+              Transforming Visions into Reality <br /> Navigating the Crypto Landscape with Confidence.
               </p>
               <MagneticButton buttonClass="bg-[#00B25C] py-[20px] px-[55px] rounded-[36px]">
                 <Link href="/contact" className="text font-poppins">
