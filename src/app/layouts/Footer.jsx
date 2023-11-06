@@ -30,9 +30,7 @@ const Footer = () => {
                         <h3 className="heading-6 text-white font-semibold mb-[30px] sm:mb-[15px]">Pages</h3>
                         <ul>
                             <li><Link href="/" className={`font-medium hover:text-white leading-[30px] transition-all${pathname === "/" ? " active text-white" : ""}`}>Home</Link></li>
-                            <li><Link href="/about" className={`font-medium hover:text-white leading-[30px] transition-all${pathname === "/about" ? " active text-white" : ""}`}>About</Link></li>
                             <li><Link href="/contact" className={`font-medium hover:text-white leading-[30px] transition-all${pathname === "/contact" ? " active text-white" : ""}`}>Contact</Link></li>
-                            <li><Link href="/work" className={`font-medium hover:text-white leading-[30px] transition-all${pathname === "/work" ? " active text-white" : ""}`}>Work</Link></li>
                         </ul>
                     </div>
                     <div className="col-lg-3 col-md-6">
