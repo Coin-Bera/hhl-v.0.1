@@ -89,7 +89,7 @@ export const gridImageDatabaseData = [
         label: "AWS"
     },
     {
-        path: "/assets/img/gcp.svg",
+        path: "/assets/img/GCP.svg",
         label: "GCP"
     },
     {

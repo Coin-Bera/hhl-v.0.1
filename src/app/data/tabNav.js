@@ -7,7 +7,7 @@ export const tabData = [
         content: <ImageGrid bgColor="#232323" border="#232323" data={gridImageCMSData} />
     },
     {
-        label: "Front End",
+        label: "Front end",
         content: <ImageGrid bgColor="#232323" border="#232323" data={gridImageData} />,
     },
     {
