@@ -56,14 +56,6 @@
         "async": false
       }
     },
-    "(app-client)/./src/app/components/MagneticButton.jsx": {
-      "*": {
-        "id": "(sc_client)/./src/app/components/MagneticButton.jsx",
-        "name": "*",
-        "chunks": [],
-        "async": false
-      }
-    },
     "(app-client)/./src/app/sections/HomeContact.jsx": {
       "*": {
         "id": "(sc_client)/./src/app/sections/HomeContact.jsx",
@@ -96,17 +88,17 @@
         "async": false
       }
     },
-    "(app-client)/./src/app/scss/components/Bubble.scss": {
+    "(app-client)/./src/app/components/MagneticButton.jsx": {
       "*": {
-        "id": "(sc_client)/./src/app/scss/components/Bubble.scss",
+        "id": "(sc_client)/./src/app/components/MagneticButton.jsx",
         "name": "*",
         "chunks": [],
         "async": false
       }
     },
-    "(app-client)/./src/app/layouts/Header.jsx": {
+    "(app-client)/./src/app/scss/components/Bubble.scss": {
       "*": {
-        "id": "(sc_client)/./src/app/layouts/Header.jsx",
+        "id": "(sc_client)/./src/app/scss/components/Bubble.scss",
         "name": "*",
         "chunks": [],
         "async": false
@@ -120,25 +112,9 @@
         "async": false
       }
     },
-    "(app-client)/./src/app/sections/AboutHowWeWork.jsx": {
+    "(app-client)/./src/app/layouts/Header.jsx": {
       "*": {
-        "id": "(sc_client)/./src/app/sections/AboutHowWeWork.jsx",
-        "name": "*",
-        "chunks": [],
-        "async": false
-      }
-    },
-    "(app-client)/./src/app/sections/AboutOurTeam.jsx": {
-      "*": {
-        "id": "(sc_client)/./src/app/sections/AboutOurTeam.jsx",
-        "name": "*",
-        "chunks": [],
-        "async": false
-      }
-    },
-    "(app-client)/./src/app/sections/Contact.jsx": {
-      "*": {
-        "id": "(sc_client)/./src/app/sections/Contact.jsx",
+        "id": "(sc_client)/./src/app/layouts/Header.jsx",
         "name": "*",
         "chunks": [],
         "async": false
@@ -231,7 +207,7 @@
       "id": "(app-client)/./node_modules/next/dist/client/image-component.js",
       "name": "*",
       "chunks": [
-        "app/work/page:static/chunks/app/work/page.js"
+        "app/page:static/chunks/app/page.js"
       ],
       "async": false
     },
@@ -239,7 +215,7 @@
       "id": "(app-client)/./node_modules/next/dist/client/image-component.js",
       "name": "*",
       "chunks": [
-        "app/work/page:static/chunks/app/work/page.js"
+        "app/page:static/chunks/app/page.js"
       ],
       "async": false
     },
@@ -253,14 +229,6 @@
     },
     "/Users/coinoor/Desktop/GitRepos/hhl-v.0.1/node_modules/next/dist/esm/client/link.js": {
       "id": "(app-client)/./node_modules/next/dist/client/link.js",
-      "name": "*",
-      "chunks": [
-        "app/page:static/chunks/app/page.js"
-      ],
-      "async": false
-    },
-    "/Users/coinoor/Desktop/GitRepos/hhl-v.0.1/src/app/components/MagneticButton.jsx": {
-      "id": "(app-client)/./src/app/components/MagneticButton.jsx",
       "name": "*",
       "chunks": [
         "app/page:static/chunks/app/page.js"
@@ -299,11 +267,43 @@
       ],
       "async": false
     },
+    "/Users/coinoor/Desktop/GitRepos/hhl-v.0.1/src/app/components/MagneticButton.jsx": {
+      "id": "(app-client)/./src/app/components/MagneticButton.jsx",
+      "name": "*",
+      "chunks": [
+        "app/page:static/chunks/app/page.js"
+      ],
+      "async": false
+    },
     "/Users/coinoor/Desktop/GitRepos/hhl-v.0.1/src/app/scss/components/Bubble.scss": {
       "id": "(app-client)/./src/app/scss/components/Bubble.scss",
       "name": "*",
       "chunks": [
-        "app/work/page:static/chunks/app/work/page.js"
+        "app/page:static/chunks/app/page.js"
+      ],
+      "async": false
+    },
+    "/Users/coinoor/Desktop/GitRepos/hhl-v.0.1/src/app/layouts/Footer.jsx": {
+      "id": "(app-client)/./src/app/layouts/Footer.jsx",
+      "name": "*",
+      "chunks": [
+        "app/layout:static/chunks/app/layout.js"
+      ],
+      "async": false
+    },
+    "/Users/coinoor/Desktop/GitRepos/hhl-v.0.1/src/app/layouts/Header.jsx": {
+      "id": "(app-client)/./src/app/layouts/Header.jsx",
+      "name": "*",
+      "chunks": [
+        "app/layout:static/chunks/app/layout.js"
+      ],
+      "async": false
+    },
+    "/Users/coinoor/Desktop/GitRepos/hhl-v.0.1/src/app/globals.scss": {
+      "id": "(app-client)/./src/app/globals.scss",
+      "name": "*",
+      "chunks": [
+        "app/layout:static/chunks/app/layout.js"
       ],
       "async": false
     },
@@ -322,62 +322,6 @@
         "app/layout:static/chunks/app/layout.js"
       ],
       "async": false
-    },
-    "/Users/coinoor/Desktop/GitRepos/hhl-v.0.1/src/app/layouts/Header.jsx": {
-      "id": "(app-client)/./src/app/layouts/Header.jsx",
-      "name": "*",
-      "chunks": [
-        "app/layout:static/chunks/app/layout.js"
-      ],
-      "async": false
-    },
-    "/Users/coinoor/Desktop/GitRepos/hhl-v.0.1/src/app/layouts/Footer.jsx": {
-      "id": "(app-client)/./src/app/layouts/Footer.jsx",
-      "name": "*",
-      "chunks": [
-        "app/layout:static/chunks/app/layout.js"
-      ],
-      "async": false
-    },
-    "/Users/coinoor/Desktop/GitRepos/hhl-v.0.1/src/app/globals.scss": {
-      "id": "(app-client)/./src/app/globals.scss",
-      "name": "*",
-      "chunks": [
-        "app/layout:static/chunks/app/layout.js"
-      ],
-      "async": false
-    },
-    "/Users/coinoor/Desktop/GitRepos/hhl-v.0.1/src/app/sections/AboutHowWeWork.jsx": {
-      "id": "(app-client)/./src/app/sections/AboutHowWeWork.jsx",
-      "name": "*",
-      "chunks": [
-        "app/about/page:static/chunks/app/about/page.js"
-      ],
-      "async": false
-    },
-    "/Users/coinoor/Desktop/GitRepos/hhl-v.0.1/src/app/sections/AboutOurTeam.jsx": {
-      "id": "(app-client)/./src/app/sections/AboutOurTeam.jsx",
-      "name": "*",
-      "chunks": [
-        "app/about/page:static/chunks/app/about/page.js"
-      ],
-      "async": false
-    },
-    "/Users/coinoor/Desktop/GitRepos/hhl-v.0.1/src/app/scss/sections/WorkList.scss": {
-      "id": "(app-client)/./src/app/scss/sections/WorkList.scss",
-      "name": "*",
-      "chunks": [
-        "app/work/page:static/chunks/app/work/page.js"
-      ],
-      "async": false
-    },
-    "/Users/coinoor/Desktop/GitRepos/hhl-v.0.1/src/app/sections/Contact.jsx": {
-      "id": "(app-client)/./src/app/sections/Contact.jsx",
-      "name": "*",
-      "chunks": [
-        "app/contact/page:static/chunks/app/contact/page.js"
-      ],
-      "async": false
     }
   },
   "entryCSSFiles": {
@@ -386,15 +330,6 @@
     ],
     "/Users/coinoor/Desktop/GitRepos/hhl-v.0.1/src/app/layout": [
       "static/css/app/layout.css"
-    ],
-    "/Users/coinoor/Desktop/GitRepos/hhl-v.0.1/src/app/about/page": [
-      "static/css/app/about/page.css"
-    ],
-    "/Users/coinoor/Desktop/GitRepos/hhl-v.0.1/src/app/work/page": [
-      "static/css/app/work/page.css"
-    ],
-    "/Users/coinoor/Desktop/GitRepos/hhl-v.0.1/src/app/contact/page": [
-      "static/css/app/contact/page.css"
     ]
   }
 }
