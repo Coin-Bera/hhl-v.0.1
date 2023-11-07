@@ -184,7 +184,7 @@ const Contact = () => {
                                 <a href={`mailto:${process.env.NEXT_PUBLIC_MAIL_ID || "contact@habibihouselabs.ae"}`} className="heading-6">contact@habibihouselabs.ae</a>
                             </div>
                         </div>
-                        <div className="flex items-start">
+                        {/* <div className="flex items-start">
                             <Image className="mr-[25px] mt-[5px]" width={35} height={35} src="/assets/icons/thumbs_up.svg" alt="thumbs up icon" />
                             <div>
                                 <h3 className="heading-4 text-white font-semibold mb-[10px]">Follow us on</h3>
@@ -194,7 +194,7 @@ const Contact = () => {
                                     <li><a href={process.env.NEXT_PUBLIC_INSTA_ID || "#" || "#"} target="_blank" className="hover:opacity-50 transition-all"><Image width={24} height={24} src="/assets/icons/instagram.svg" alt="instagram icon" /></a></li>
                                 </ul>
                             </div>
-                        </div>
+                        </div> */}
                     </div>
                 </div>
             </div>

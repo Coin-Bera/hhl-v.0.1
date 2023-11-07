@@ -46,14 +46,14 @@ const Footer = () => {
                             </li >
                         </ul >
                     </div >
-                    <div className="col-lg-auto col-md-6">
+                    {/* <div className="col-lg-auto col-md-6">
                         <h3 className="heading-6 text-white font-semibold mb-[30px] sm:mb-[15px]">Follow us on:</h3>
                         <ul className="flex items-center gap-x-[25px]">
                             <li><a href="#" className="hover:opacity-50 transition-all"><Image width={17} height={29} src="/assets/icons/facebook.svg" alt="facebook icon" /></a></li>
                             <li><a href={process.env.NEXT_PUBLIC_TWITTER_ID || "#" || "#"} target="_blank" className="hover:opacity-50 transition-all"><Image width={24} height={24} src="/assets/icons/twitter.svg" alt="twitter icon" /></a></li>
                             <li><a href={process.env.NEXT_PUBLIC_INSTA_ID || "#" || "#"} target="_blank" className="hover:opacity-50 transition-all"><Image width={24} height={24} src="/assets/icons/instagram.svg" alt="instagram icon" /></a></li>
                         </ul>
-                    </div>
+                    </div> */}
                 </div >
             </div >
         </footer >
