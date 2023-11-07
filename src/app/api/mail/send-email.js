@@ -13,8 +13,8 @@ export default async function handler(req, res) {
 
             // You can customize the email message here
             const msg = {
-                to: 'contact@habibihouselabs.com', // Replace with the recipient's email address
-                from: 'contact@habibihouselabs.com',   // Replace with the sender's email address
+                to: 'contact@habibihouselabs.com', 
+                from: 'contact@habibihouselabs.com',  
                 subject: 'New Contact Form Submission',
                 text: `Full Name: ${fullName}\nEmail: ${email}\nPhone: ${phone}\nProject Details: ${projectDetails}`,
             };

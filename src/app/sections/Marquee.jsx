@@ -4,6 +4,8 @@ import Image from "next/image";
 const Marquee = () => {
     return (
         <section className="container relative flex items-center xl:py-[250px] lg:pt-[200px] lg:pb-[100px] sm:pt-[150px] overflow-x-hidden mx-auto" style={{ position: "relative" }}>
+            <div className="flex-col container relative">
+                <p className="text-center title heading-6 text-gray-500 font-regular mb-12">Our clients are backed by the best:</p>
             <div className="flex gap-16 whitespace-nowrap mx-auto animate-marquee">
                 <>
                     <Image
@@ -129,6 +131,7 @@ const Marquee = () => {
                         height={100} 
                     />
                 </>
+            </div>
             </div>
         </section>
     );
