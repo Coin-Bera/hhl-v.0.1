@@ -38,10 +38,10 @@ const HomeBanner = () => {
                 Habibi House Labs
               </h1>
               <p className="text-[26px] w-full mx-auto mb-[50px] xl:w-[65%] sm:mb-[30px] sm:w-[80%] xs:w-full leading-[1.5]">
-              Transforming Visions into Reality <br /> Navigating the Crypto Landscape with Confidence.
+              Transforming Visions into Reality Navigating the Crypto Landscape with Confidence.
               </p>
               <MagneticButton buttonClass="bg-[#00B25C] py-[20px] px-[55px] rounded-[36px]">
-                <Link href="/contact" className="text font-poppins">
+                <Link href="/contact" className="text-[18px] font-poppins">
                   Contact Us
                 </Link>
               </MagneticButton>
