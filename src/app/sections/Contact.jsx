@@ -57,42 +57,27 @@ const Contact = () => {
         }
         setErrors(newErrors);
         if (Object.keys(newErrors).length === 0) {
-            if (!/^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/.test(email)) {
-                setLoading(false);
-                setErrors((prev) => ({
-                    ...prev,
-                    message: 'Email is not valid.',
-                }));
-            } else if (!isValidPhoneNumber(phone)) {
-                setLoading(false);
-                setErrors((prev) => ({
-                    ...prev,
-                    message: 'Phone is not valid.',
-                }));
-            } else {
-                try {
-                    const response = await fetch('/api/send-email', {
-                        method: 'POST',
-                        headers: {
-                            'Content-Type': 'application/json',
-                        },
-                        body: JSON.stringify({ fullName, email, phone, projectDetails }),
-                    });
-                    const data = await response.json();
+            try {
+                const response = await fetch('/api/send-email', {
+                    method: 'POST',
+                    headers: {
+                        'Content-Type': 'application/json',
+                    },
+                    body: JSON.stringify({ fullName, email, phone, projectDetails }),
+                });
 
-                    if (data.status === 200) {
-                        setFormData(formInit);
-                        setErrors({ error: false, message: 'Mail Successfully sent.' });
-                        setLoading(false);
-                    } else {
-                        setErrors({ error: true, message: 'Oops! something went wrong.' });
-                        setLoading(false);
-                    }
-                } catch (error) {
-                    console.log('Error sending email:', error);
+                if (response.status === 200) {
+                    setFormData(formInit);
+                    setErrors({ error: false, message: 'Mail Successfully sent.' });
+                } else {
                     setErrors({ error: true, message: 'Oops! something went wrong.' });
-                    setLoading(false);
                 }
+
+                setLoading(false);
+            } catch (error) {
+                console.log('Error sending email:', error);
+                setErrors({ error: true, message: 'Oops! something went wrong.' });
+                setLoading(false);
             }
         } else {
             setLoading(false);
